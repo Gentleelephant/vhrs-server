@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/vhr?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  rabbitmq:
+    username: guest
+    password: guest
+    host: 47.97.221.113
+    port: 5672
